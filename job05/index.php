@@ -1,4 +1,3 @@
-
 <!-- Affichez tous les nombres de 0 à 1337 compris sauf 26, 37, 88, 1111 en mettant
 un retour à la ligne entre chaque nombre -->
 
@@ -11,15 +10,25 @@ un retour à la ligne entre chaque nombre -->
 </head>
 <body>
 
-<?php
-for ($i = 0; $i<1337; $i++){
-    if ($i==26|| $i == 37 || $i == 88 || $i ==1111){
-        continue;
+<?php 
+
+for ($i =0; $i<=100; $i++){
+   
+    if ($i==42) {
+        echo "LA PLATEFORME <br>"; 
+    }
+    elseif ($i>=0 && $i<=20){
+        echo "<i>$i<i> <br>"; 
+    }
+    elseif ($i>=25 && $i<=50){
+        echo "<u>$i<u> <br>";
     }
     else {
-        echo "$i <br>";
+        echo "$i <br>"; 
     }
 }
+
 ?>
+    
 </body>
 </html>
