@@ -1,6 +1,9 @@
 
 <!-- Développez un algorithme qui affiche le nombre d’arguments $_GET. -->
 
+<!-- Créez un algorithme qui affiche dans un tableau HTML l’ensemble des arguments $_GET et les valeurs associées. -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
