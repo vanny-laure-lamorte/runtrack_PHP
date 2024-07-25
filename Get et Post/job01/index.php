@@ -14,6 +14,7 @@
     <form action="index.php" method="GET">
         Name: <input type="text" name ="prenom">
         Prenom: <input type="text" name="nom">
+        Age: <input type="text" name="30">
         <input type="submit">
     </form>
 </body>
@@ -21,6 +22,11 @@
 </html>
 
 <?php
+
+// Compte tous les get dans la page html
+echo count($_GET); 
+
+// isset — Détermine si une variable est déclarée et est différente de null
 if (isset($_GET['prenom']) && isset($_GET["nom"]))
 echo "Nom de l'étudiant: " .$_GET['prenom'].$_GET['nom'];
 ?>
